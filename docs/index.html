@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to carbonpy’s documentation! &#8212; carbonpy 0.0.1 documentation</title>
+    <title>Welcome to code2img’s documentation! &#8212; code2img 0.0.1 documentation</title>
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -30,64 +30,65 @@
 
           <div class="body" role="main">
             
-  <div class="section" id="welcome-to-carbonpy-s-documentation">
-<h1>Welcome to carbonpy’s documentation!<a class="headerlink" href="#welcome-to-carbonpy-s-documentation" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="welcome-to-code2img-s-documentation">
+<h1>Welcome to code2img’s documentation!<a class="headerlink" href="#welcome-to-code2img-s-documentation" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  __|            |                 _ \
- (      _` |   _| _ \   _ \    \   __/ |  |
-\___| \__,_| _| _.__/ \___/ _| _| _|  \_, |
-                                      ___/
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>           <span class="n">_</span>     <span class="n">___</span> <span class="n">_</span>
+ <span class="n">___</span> <span class="n">___</span> <span class="n">_</span><span class="o">|</span> <span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">_</span>  <span class="o">|</span><span class="n">_</span><span class="o">|</span><span class="n">_____</span> <span class="n">___</span>
+<span class="o">|</span>  <span class="n">_</span><span class="o">|</span> <span class="o">.</span> <span class="o">|</span> <span class="o">.</span> <span class="o">|</span> <span class="o">-</span><span class="n">_</span><span class="o">|</span>  <span class="n">_</span><span class="o">|</span> <span class="o">|</span>     <span class="o">|</span> <span class="o">.</span> <span class="o">|</span>
+<span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">___</span><span class="o">|</span><span class="n">_</span><span class="o">|</span><span class="n">_</span><span class="o">|</span><span class="n">_</span><span class="o">|</span><span class="n">_</span><span class="o">|</span><span class="n">_</span>  <span class="o">|</span>
+                            <span class="o">|</span><span class="n">___</span><span class="o">|</span>
 </pre></div>
 </div>
-<p><cite>carbonpy</cite> is a simple tool to generate an image from a local file or
+<p>` code2img` is a simple tool to generate an image from a local file or
 from a GitHub repository. It can also be used to send the source code
 to carbon.now.sh and generate the image there.</p>
 </div>
 <div class="section" id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p><cite>carbonpy</cite> is available on <a class="reference external" href="https://pypi.org/project/carbonpy/">PyPi</a> (MIT license)
+<p><cite>code2img</cite> is available on <a class="reference external" href="https://pypi.org/project/code2img/">PyPi</a> (MIT license)
 and installation can be performed by running <a class="reference external" href="https://docs.python.org/es/3/installing/index.html">pip</a></p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip install carbonpy</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip install code2img</span>
 </pre></div>
 </div>
 <p>To upgrade the package:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip install carbonpy --upgrade</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip install code2img --upgrade</span>
 </pre></div>
 </div>
 <p>To delete the package:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip uninstall carbonpy</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">python -m pip uninstall code2img</span>
 </pre></div>
 </div>
 </div>
 <div class="section" id="example">
 <h1>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h1>
 <p>To generate an image from a local file:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m carbonpy main.py -s</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m code2img main.py -s</span>
 <span class="go">Done!</span>
 <span class="go">Image created in current directory: main.png</span>
 </pre></div>
 </div>
 <p>To generate an image from a GitHub repository:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m carbonpy soluciones/fibonacci.py -g</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m code2img soluciones/fibonacci.py -g</span>
 <span class="go">Done!</span>
 <span class="go">Image created in current directory: fibonacci.png</span>
 </pre></div>
 </div>
 <p>You can also send the content of the source code to carbon.now.sh:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m carbonpy main.py -c</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; python -m code2img main.py -c</span>
 <span class="go">Sent to Carbon.now.sh</span>
 
-<span class="go">&gt; python -m carbonpy soluciones/fibonacci.py -gc</span>
+<span class="go">&gt; python -m code2img soluciones/fibonacci.py -gc</span>
 <span class="go">Sent to Carbon.now.sh</span>
 </pre></div>
 </div>
 <p>Help command:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; carbonpy -h</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; code2img -h</span>
 </pre></div>
 </div>
 <p>or:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; carbonpy --help</span>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&gt; code2img --help</span>
 </pre></div>
 </div>
 </div>
@@ -107,7 +108,7 @@ and installation can be performed by running <a class="reference external" href=
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-<h1 class="logo"><a href="#">carbonpy</a></h1>
+<h1 class="logo"><a href="#">code2img</a></h1>
 
 
 
