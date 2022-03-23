@@ -18,11 +18,11 @@ For more information:
 https://leugimkm.github.io/carbonpy/
 """
 import webbrowser
-from base import parse_args
-from api import Carbon
-from utils import parse_str, read_file, split_path, job_done
-from constants import URL
-from creator import ImgCreator, GitHubContent
+from .base import parse_args
+from .api import Carbon
+from .utils import parse_str, read_file, split_path, job_done
+from .constants import URL
+from .creator import ImgCreator, GitHubContent
 
 
 def main():

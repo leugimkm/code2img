@@ -1,8 +1,8 @@
 from dataclasses import dataclass, asdict
 from typing import Dict, Optional
 
-from constants import DEFAULT_SETTINGS
-from utils import parse_str
+from .constants import DEFAULT_SETTINGS
+from .utils import parse_str
 
 
 @dataclass
