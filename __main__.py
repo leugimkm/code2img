@@ -40,11 +40,13 @@ def main():
         content = GitHubContent(args.file)
         code = parse_str(content.get_content())
         webbrowser.open_new_tab(URL.format(query=query, code=code))
-        job_done(filename)
+        print("Sent to Carbon.now.sh")
+        print()
     if args.carbon:
         code = parse_str(read_file(args.file))
         webbrowser.open_new_tab(URL.format(query=query, code=code))
-        job_done(filename)
+        print("Sent to Carbon.now.sh")
+        print()
     if args.save:
         code = read_file(args.file)
         img.create(code, filename)
