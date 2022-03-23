@@ -36,7 +36,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "carbonpy=carbonpy.__main__:main",
+            "code2img=code2img.__main__:main",
         ],
     },
 )
