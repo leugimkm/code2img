@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="code2img",
-    version="0.0.1",
+    version="0.0.2",
     url="https://github.com/leugimkm/code2img",
     project_urls={
         "Documentation": "https://leugimkm.github.io/code2img/",
