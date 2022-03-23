@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'carbonpy'
+project = 'code2img'
 copyright = f'{date.today().year}, leugimkm'
 author = 'leugimkm'
 

@@ -3,19 +3,19 @@
 
 """CodeSeeker
 
-CarbonPy is a simple tool to generate an image from source
+Code2img is a simple tool to generate an image from source
 code using Carbon.now.sh. Also, it can be used to generate
 an image from a GitHub repository or from a local file.
 
 Usage example:
-    > python -m carbonpy soluciones/fibonacci.py -g
+    > python -m code2img soluciones/fibonacci.py -g
     Created image in current directory: fibonacci.png
 
     > python -m carbony fibonacci.py -c
     Opening in a web browser...
 
 For more information:
-https://leugimkm.github.io/carbonpy/
+https://leugimkm.github.io/code2img/
 """
 import webbrowser
 from .base import parse_args

@@ -10,9 +10,9 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="carbonpy",
+    name="code2img",
     version="0.0.1",
-    url="https://github.com/leugimkm/carbonpy",
+    url="https://github.com/leugimkm/code2img",
     license="MIT",
     author="leugimkm",
     author_email="leugimkm@systrien.com",

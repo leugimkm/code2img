@@ -1,69 +1,72 @@
-# CarbonPy
+# Code2img
 
-Use Carbon from terminal to generate images of your source code
+Use code2img from terminal to generate images of your source code
 
-![GitHub](https://img.shields.io/github/license/leugimkm/carbonpy)
+![GitHub](https://img.shields.io/github/license/leugimkm/code2img)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](./code_of_conduct.md)
-![GitHub languages](https://img.shields.io/github/languages/top/leugimkm/carbonpy)
-![GitHub repo size](https://img.shields.io/github/repo-size/leugimkm/carbonpy)
-![Github last-commit](https://img.shields.io/github/last-commit/leugimkm/carbonpy)
+![GitHub languages](https://img.shields.io/github/languages/top/leugimkm/code2img)
+![GitHub repo size](https://img.shields.io/github/repo-size/leugimkm/code2img)
+![Github last-commit](https://img.shields.io/github/last-commit/leugimkm/code2img)
 ![maintenance](https://img.shields.io/maintenance/yes/2022)
 
-       __|            |                 _ \      
-      (      _` |   _| _ \   _ \    \   __/ |  | 
-     \___| \__,_| _| _.__/ \___/ _| _| _|  \_, | 
-                                           ___/  
+                                 
+               _     ___ _           
+     ___ ___ _| |___|_  |_|_____ ___ 
+    |  _| . | . | -_|  _| |     | . |
+    |___|___|___|___|___|_|_|_|_|_  |
+                                |___|
 
-`carbonpy` is a simple tool to generate an image from a local file or
+
+`code2img` is a simple tool to generate an image from a local file or
 from a GitHub repository. It can also be used to send the source code
 to carbon.now.sh and generate the image there.
 
 # Installation
 
-`carbonpy` is available on [PyPi](https://pypi.org/project/carbonpy/) (MIT license)
+`code2img` is available on [PyPi](https://pypi.org/project/code2img/) (MIT license)
 and installation can be performed by running [pip](https://docs.python.org/es/3/installing/index.html)
 
 ```
-python -m pip install carbonpy
+python -m pip install code2img
 ```
 To upgrade the package:
 ```
-python -m pip install carbonpy --upgrade
+python -m pip install code2img --upgrade
 ```
 To delete the package:
 ```
-python -m pip uninstall carbonpy
+python -m pip uninstall code2img
 ```
 
 # Example
 
 To generate an image from a local file:
 
-    > python -m carbonpy main.py -s
+    > python -m code2img main.py -s
     Done!
     Image created in current directory: main.png
 
 To generate an image from a GitHub repository:
 
-    > python -m carbonpy soluciones/fibonacci.py -g
+    > python -m code2img soluciones/fibonacci.py -g
     Done!
     Image created in current directory: fibonacci.png
 
 You can also send the content of the source code to carbon.now.sh:
 
-    > python -m carbonpy main.py -c
+    > python -m code2img main.py -c
     Sent to Carbon.now.sh
 
-    > python -m carbonpy soluciones/fibonacci.py -gc
+    > python -m code2img soluciones/fibonacci.py -gc
     Sent to Carbon.now.sh
 
 Help command:
 
-    > carbonpy -h
+    > code2img -h
 
 or:
 
-    > carbonpy --help
+    > code2img --help
 
 
 # Contribution

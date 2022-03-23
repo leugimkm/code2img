@@ -5,12 +5,12 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 def parse_args():
     """Function to parse arguments."""
     parser = ArgumentParser(
-        prog="carbonpy",
+        prog="code2img",
         formatter_class=RawDescriptionHelpFormatter,
         description=textwrap.dedent("""\
-            CarbonPy
+            Code2Img
             --------
-                CarbonPy is a simple tool to generate an image from a local
+                Code2Img is a simple tool to generate an image from a local
                 file or from a GitHub repository. It can also be used to
                 send the source code to carbon.now.sh and generate the
                 image there.

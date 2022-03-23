@@ -3,7 +3,7 @@ import unittest
 from unittest.mock import patch
 from textwrap import dedent
 
-from carbonpy.utils import parse_str, read_file, split_path, job_done
+from code2img.utils import parse_str, read_file, split_path, job_done
 
 
 class TestCarbonPyUtils(unittest.TestCase):
