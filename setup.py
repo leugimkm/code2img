@@ -13,6 +13,10 @@ setup(
     name="code2img",
     version="0.0.1",
     url="https://github.com/leugimkm/code2img",
+    project_urls={
+        "Documentation": "https://leugimkm.github.io/code2img/",
+        "Bug Tracker:" "https://github.com/leugimkm/code2img/issues",
+    },
     license="MIT",
     author="leugimkm",
     author_email="leugimkm@systrien.com",
