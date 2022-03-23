@@ -15,7 +15,8 @@ setup(
     url="https://github.com/leugimkm/code2img",
     project_urls={
         "Documentation": "https://leugimkm.github.io/code2img/",
-        "Bug Tracker:" "https://github.com/leugimkm/code2img/issues",
+        "Tracker": "https://github.com/leugimkm/code2img/issues",
+        "Source": "https://github.com/leugimkm/code2img",
     },
     license="MIT",
     author="leugimkm",
