@@ -1,7 +1,7 @@
 import requests
 from pygments import highlight, lexers
 from pygments.formatters.img import ImageFormatter
-from pygments.styles import get_style_by_name
+# from pygments.styles import get_style_by_name
 
 
 class GitHubContent:
@@ -32,7 +32,8 @@ class ImgCreator:
 
     def create(self, raw: str, filename: str) -> None:
         formatter = ImageFormatter(
-            style=get_style_by_name(self.style),
+            # style=get_style_by_name(self.style),
+            style=self.style,
             line_number_chars=3,
             line_number_bg=None,
             line_number_fg=None,
