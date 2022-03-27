@@ -8,6 +8,9 @@ Use code2img from terminal to generate images of your source code
 ![GitHub repo size](https://img.shields.io/github/repo-size/leugimkm/code2img)
 ![Github last-commit](https://img.shields.io/github/last-commit/leugimkm/code2img)
 ![maintenance](https://img.shields.io/maintenance/yes/2022)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/leugimkm/code2img)
+![PyPI - Format](https://img.shields.io/pypi/format/code2img)
+[![Downloads](https://pepy.tech/badge/code2img)](https://pepy.tech/project/code2img)
 
                                  
                _     ___ _           
