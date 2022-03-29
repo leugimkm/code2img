@@ -1,7 +1,7 @@
 #!/user/bin/env python
 # -*- coding: utf-8 -*-
 
-"""CodeSeeker
+"""Code2Img
 
 Code2img is a simple tool to generate an image from source
 code using Carbon.now.sh. Also, it can be used to generate
@@ -11,7 +11,7 @@ Usage example:
     > python -m code2img soluciones/fibonacci.py -g
     Created image in current directory: fibonacci.png
 
-    > python -m carbony fibonacci.py -c
+    > python -m code2img fibonacci.py -c
     Opening in a web browser...
 
 For more information:
